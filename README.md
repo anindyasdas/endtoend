@@ -1,5 +1,5 @@
 # Text autoencoder and End-To_End
-This is the documentation of text autoencoder and Mapping function between [image embeddings](https://github.com/anindyasdas/stackGANautoen) and text embeddings obtained from text autoencoder using MMD-GAN and GAN.
+This is the documentation of text autoencoder and Mapping function between image embeddings obtained from [StackGAN-v2 autoencoder](https://github.com/anindyasdas/stackGANautoen) and text embeddings obtained from text autoencoder using MMD-GAN and GAN.
 ## Additional Dataset that needs to be downloaded along with this code
 End-to-End MMD and GAN model and text autoencoder
 -Download [Flower images](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/102flowers.tgz). Unzip 102flowers.zip, Rename the jpg folder to images and put it inside 102flowers folder
