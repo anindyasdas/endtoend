@@ -16,3 +16,18 @@ e.g.
 ```
 python run_text_test.py 2 /home/user/dev/unsup/data_datasets/CUB_200_2011 outbirds_n.txt
 ```
+## Run The GAN-based Mapping Network
+```
+python MappingImageText.py Dataset_folder
+```
+e.g.
+```
+python MappingImageText.py /home/user/dev/unsup/data_datasets/CUB_200_2011
+```
+## Run MMD-based Mapping Network
+```
+python mmd_ganTI.py --dataset /home/das/dev/data_datasets/birds_dataset/CUB_200_2011 --gpu_device 0
+```
+```
+python mmd_ganIT.py --dataset /home/das/dev/data_datasets/birds_dataset/CUB_200_2011 --gpu_device 0
+```
